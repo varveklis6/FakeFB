@@ -30,7 +30,7 @@ aside{
     min-width: 500px;
     width: calc(100% - 480px);
     max-width: 1000px ;
-    margin: 80px 0 140px;
+    margin: 80px 140px;
     background-color: rgb(148, 184, 179);
 }
 

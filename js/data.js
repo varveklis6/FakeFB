@@ -15,7 +15,7 @@ const post = [
     //     }
     // },
     {
-        authir :{
+        author: {
             name: 'Anthon',
             surname: 'Martathon',
             img: 'anthon-marathon.jpg',
@@ -28,7 +28,7 @@ const post = [
 
     },
     {
-        authir :{
+        author: {
             name: 'Anthon',
             surname: 'Martathon',
             img: 'anthon-marathon.jpg',
@@ -41,7 +41,7 @@ const post = [
 
     },
     {
-        authir :{
+        author: {
             name: 'Anthon',
             surname: 'Martathon',
             img: 'anthon-marathon.jpg',
@@ -55,7 +55,7 @@ const post = [
 
     },
     {
-        authir :{
+        author: {
             name: 'Anthon',
             surname: 'Martathon',
             img: 'anthon-marathon.jpg',
@@ -68,7 +68,7 @@ const post = [
 
     },
     {
-        authir :{
+        author: {
             name: 'Anthon',
             surname: 'Martathon',
             img: 'anthon-marathon.jpg',
@@ -81,7 +81,7 @@ const post = [
 
     },
     {
-        authir :{
+        author: {
             name: 'Anthon',
             surname: 'Martathon',
             img: 'anthon-marathon.jpg',
@@ -93,7 +93,7 @@ const post = [
         }
     },
     {
-        authir :{
+        author: {
             name: 'Anthon',
             surname: 'Martathon',
             img: 'anthon-marathon.jpg',
@@ -106,7 +106,7 @@ const post = [
 
     },
     {
-        authir :{
+        author: {
             name: 'Anthon',
             surname: 'Martathon',
             img: 'anthon-marathon.jpg',
@@ -119,7 +119,7 @@ const post = [
 
     },
     {
-        authir :{
+        author: {
             name: 'Anthon',
             surname: 'Martathon',
             img: 'anthon-marathon.jpg',
@@ -131,5 +131,7 @@ const post = [
             background: 'blue'
         }
 
-    },
+    }
 ];
+
+console.log();
