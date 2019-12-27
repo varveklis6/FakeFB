@@ -1,6 +1,6 @@
 "use strict";
 
-const post = [
+const posts = [
     // {
     //     authir :{
     //         name: 'Anthon',
@@ -16,9 +16,9 @@ const post = [
     // },
     {
         author: {
-            name: 'Anthon',
+            name: 'Clayton',
             surname: 'Martathon',
-            img: 'anthon-marathon.jpg',
+            img: 'Clayton.jpg',
             link: '#'
         },
         time: 1576834694185,
@@ -29,9 +29,9 @@ const post = [
     },
     {
         author: {
-            name: 'Anthon',
-            surname: 'Martathon',
-            img: 'anthon-marathon.jpg',
+            name: 'Kelly',
+            surname: 'Palmer',
+            img: 'Kelly.jpg',
             link: '#'
         },
         time: 1576834694185,
@@ -42,9 +42,9 @@ const post = [
     },
     {
         author: {
-            name: 'Anthon',
-            surname: 'Martathon',
-            img: 'anthon-marathon.jpg',
+            name: 'Leta',
+            surname: 'Freeman',
+            img: 'LetaFreeman.jpg',
             link: '#'
         },
         time: 1576834694185,
@@ -56,9 +56,9 @@ const post = [
     },
     {
         author: {
-            name: 'Anthon',
-            surname: 'Martathon',
-            img: 'anthon-marathon.jpg',
+            name: 'Marilyn',
+            surname: 'Book',
+            img: 'Marilyn.jpg',
             link: '#'
         },
         time: 1576834694185,
@@ -69,9 +69,9 @@ const post = [
     },
     {
         author: {
-            name: 'Anthon',
-            surname: 'Martathon',
-            img: 'anthon-marathon.jpg',
+            name: 'Nathaniel',
+            surname: 'Daasda',
+            img: 'Nathaniel.jpg',
             link: '#'
         },
         time: 1576834694185,
@@ -82,9 +82,9 @@ const post = [
     },
     {
         author: {
-            name: 'Anthon',
-            surname: 'Martathon',
-            img: 'anthon-marathon.jpg',
+            name: 'Patrick',
+            surname: 'Schwarzenegger',
+            img: 'Patrick.jpg',
             link: '#'
         },
         time: 1576834694185,
@@ -94,9 +94,9 @@ const post = [
     },
     {
         author: {
-            name: 'Anthon',
-            surname: 'Martathon',
-            img: 'anthon-marathon.jpg',
+            name: 'Rick',
+            surname: 'Andmorty',
+            img: 'Rick.jpg',
             link: '#'
         },
         time: 1576834694185,
@@ -107,9 +107,9 @@ const post = [
     },
     {
         author: {
-            name: 'Anthon',
-            surname: 'Martathon',
-            img: 'anthon-marathon.jpg',
+            name: 'Sandra',
+            surname: 'Witch',
+            img: 'Sandra.jpg',
             link: '#'
         },
         time: 1576834694185,
@@ -120,9 +120,9 @@ const post = [
     },
     {
         author: {
-            name: 'Anthon',
-            surname: 'Martathon',
-            img: 'anthon-marathon.jpg',
+            name: 'Sharlene',
+            surname: 'Borsch',
+            img: 'Sharlene.jpg',
             link: '#'
         },
         time: 1576834694185,
