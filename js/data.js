@@ -1,6 +1,6 @@
 "use strict";
 
-const post = [
+const posts = [
     // {
     //     authir :{
     //         name: 'Anthon',
@@ -15,10 +15,10 @@ const post = [
     //     }
     // },
     {
-        authir :{
-            name: 'Anthon',
+        author: {
+            name: 'Clayton',
             surname: 'Martathon',
-            img: 'anthon-marathon.jpg',
+            img: 'Clayton.jpg',
             link: '#'
         },
         time: 1576834694185,
@@ -28,10 +28,10 @@ const post = [
 
     },
     {
-        authir :{
-            name: 'Anthon',
-            surname: 'Martathon',
-            img: 'anthon-marathon.jpg',
+        author: {
+            name: 'Kelly',
+            surname: 'Palmer',
+            img: 'Kelly.jpg',
             link: '#'
         },
         time: 1576834694185,
@@ -41,10 +41,10 @@ const post = [
 
     },
     {
-        authir :{
-            name: 'Anthon',
-            surname: 'Martathon',
-            img: 'anthon-marathon.jpg',
+        author: {
+            name: 'Leta',
+            surname: 'Freeman',
+            img: 'LetaFreeman.jpg',
             link: '#'
         },
         time: 1576834694185,
@@ -55,10 +55,10 @@ const post = [
 
     },
     {
-        authir :{
-            name: 'Anthon',
-            surname: 'Martathon',
-            img: 'anthon-marathon.jpg',
+        author: {
+            name: 'Marilyn',
+            surname: 'Book',
+            img: 'Marilyn.jpg',
             link: '#'
         },
         time: 1576834694185,
@@ -68,10 +68,10 @@ const post = [
 
     },
     {
-        authir :{
-            name: 'Anthon',
-            surname: 'Martathon',
-            img: 'anthon-marathon.jpg',
+        author: {
+            name: 'Nathaniel',
+            surname: 'Daasda',
+            img: 'Nathaniel.jpg',
             link: '#'
         },
         time: 1576834694185,
@@ -81,10 +81,10 @@ const post = [
 
     },
     {
-        authir :{
-            name: 'Anthon',
-            surname: 'Martathon',
-            img: 'anthon-marathon.jpg',
+        author: {
+            name: 'Patrick',
+            surname: 'Schwarzenegger',
+            img: 'Patrick.jpg',
             link: '#'
         },
         time: 1576834694185,
@@ -93,10 +93,10 @@ const post = [
         }
     },
     {
-        authir :{
-            name: 'Anthon',
-            surname: 'Martathon',
-            img: 'anthon-marathon.jpg',
+        author: {
+            name: 'Rick',
+            surname: 'Andmorty',
+            img: 'Rick.jpg',
             link: '#'
         },
         time: 1576834694185,
@@ -106,10 +106,10 @@ const post = [
 
     },
     {
-        authir :{
-            name: 'Anthon',
-            surname: 'Martathon',
-            img: 'anthon-marathon.jpg',
+        author: {
+            name: 'Sandra',
+            surname: 'Witch',
+            img: 'Sandra.jpg',
             link: '#'
         },
         time: 1576834694185,
@@ -119,10 +119,10 @@ const post = [
 
     },
     {
-        authir :{
-            name: 'Anthon',
-            surname: 'Martathon',
-            img: 'anthon-marathon.jpg',
+        author: {
+            name: 'Sharlene',
+            surname: 'Borsch',
+            img: 'Sharlene.jpg',
             link: '#'
         },
         time: 1576834694185,
@@ -131,5 +131,7 @@ const post = [
             background: 'blue'
         }
 
-    },
+    }
 ];
+
+console.log();
