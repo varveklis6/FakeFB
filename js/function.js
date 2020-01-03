@@ -52,7 +52,7 @@ function renderPostContent( content ) {
     }
     
     return `<div class="content">
-                ${textHTML}
+                <p>${textHTML}</p>
                 ${galleryHTML}
             </div>`;
 
@@ -91,10 +91,20 @@ function renderPostfooter() {
 
 function renderGallery( list ) {
     let HTML = '';
+    const maxImages = 4;
+    let size = list.length
+    if (size > maxImages ) {
+        size = maxImages;
 
-    for (let i=0; i< list.length; i++) {
-        HTML += `<img src="./img/posts/${list[i]}">`;
-        
     }
-    return HTML;
+    
+    for (let i=0; i< size; i++) {
+        HTML += `<img src="./img/posts/${list[i]}">`;  
+    }
+    if (list.length > size) {
+        HTML += `<div class ="extra">+${list.length - maxImages}</div>`;
+    }
+
+    return `<div class="gallery gallery-${size}">${HTML}</div>`;
 }  
+

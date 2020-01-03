@@ -101,7 +101,7 @@ const posts = [
         },
         time: 1576834694185,
         content: {
-        img: ['img-1.jpg', 'img-2.jpg', 'img-3.jpg', 'img-4.jpg', 'img-4.jpg', 'img-3.jpg', 'img-4.jpg']
+        img: ['img-1.jpg', 'img-2.jpg', 'img-3.jpg', 'img-4.jpg', 'img-5.jpg', 'img-6.jpg', 'img-7.jpg']
         }
 
     },
