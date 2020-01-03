@@ -39,9 +39,62 @@ function renderPostHeader( data) {
                 <i class="fa fa-ellipsis-h"></i>
             </header>`;
 }
-function renderPostContent() {
-    return '<div lass="content"> POST CONTENT</div>';
+function renderPostContent( content ) {
+    let textHTML = '';
+    let galleryHTML = '';
+
+    if ( content.text ){
+            textHTML = content.text;
+    }
+    
+    if ( content.img ){
+            galleryHTML = renderGallery( content.img );
+    }
+    
+    return `<div class="content">
+                ${textHTML}
+                ${galleryHTML}
+            </div>`;
+
 }
+
 function renderPostfooter() {
-    return '<footer> POST FOOTER</footer>';
+    return `<footer>
+                <div class="row">
+                    <div class="action">
+                        <i class="fa fa-thumbs-o-up"></i>
+                        <span>Like</span>
+                    </div>
+                    <div class="action">
+                        <i class="fa fa-comment-o"></i>
+                        <span>Comment</span>
+                    </div>
+                    <div class="action">
+                        <i class="fa fa-reply"></i>
+                        <span>Share</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <img class="user-img" src="./img/users/jacqueline.jpg"alt="user photo">
+                    <form>
+                        <textarea></textarea>
+                        <div class="actions">
+                        <i class="fa fa-smile-o"></i>
+                        <i class="fa fa-camera"></i>
+                        <i class="fa fa-picture-o"></i>
+                        <i class="fa fa-sticky-note-o"></i>
+                        </div>
+                    </form>
+                    </div>
+            </footer>`;
 }
+
+function renderGallery( list ) {
+    let HTML = '';
+
+    for (let i=0; i< list.length; i++) {
+        HTML += `<img src="./img/posts/${list[i]}">`;
+        
+    }
+    return HTML;
+}  
